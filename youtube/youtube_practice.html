@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <title>Youtube practice</title>
+      <style>
+        .thumbnail{
+          width:200px;
+          object-fit:contain;
+        }
+        .search-bar{
+          font-size:20px;
+          margin-left:12px;
+        }
+        .messi1{
+          vertical-align: middle;
+          width:150px;
+          border-color:black;
+          border-width:2px;
+          border-style: solid;
+          border-radius: 10px;
+          height:100px;
+          object-fit: cover;
+          margin-right: 20px;
+        }
+        .messi2{
+          vertical-align: middle;
+          width:150px;
+          height:150px;
+          object-fit:cover;
+          border-color:black;
+          border-style:solid;
+          margin-right: 20px;
+          border-width:2px;
+
+
+        }
+        .messi3{
+          vertical-align: middle;
+          width:150px;
+          height:150px;
+          object-fit: cover;
+          border-radius:150px;
+          border-color: black;
+          border-style:solid;
+          border-width:2px;
+        }
+        .search2{
+          margin-top:20px;
+          border-radius: 4px;
+          border-width:1px;
+        }
+        .google-search{
+          padding-left:10px;
+          width:300px;
+          height: 25px;
+          margin-left: 20px;
+          border-radius: 20px;
+          border:none;
+          box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+          color:rgba(128, 128, 128, 0.712);
+          
+        }
+        .mail{
+          margin-top:30px;
+          color:gray;
+          font-size:12px;
+          font-family:arial;
+          margin-bottom:5px;
+        }
+        .email{
+          border-width: 2px;
+          border-radius: 4px;
+          width:200px;
+        }
+        .agree{
+          font-family:arial;
+          color:rgb(48, 48, 48);
+          font-size:9px;
+          margin-top:15px;
+        }
+        .join{
+          margin-top:8px;
+          font-family:Arial;
+          background-color: #0d70d3;
+          color:white;
+          width:200px;
+          border-color:#0A66C2;
+          border-radius: 20px;
+          border-width: 1px;
+          padding-top:8px;
+          padding-bottom:8px;
+          cursor:pointer;
+        }
+        .messi-tw{
+          margin-top:0;
+          vertical-align: middle;
+          width:60px;
+          height:60px;
+          margin-right:0;
+          object-fit: cover;
+          border-width: 1px;
+          border-color:black;
+          border-style: solid;
+          border-radius: 60px;
+        }
+        .what{
+          font-family: arial;
+          color:gray;
+          text-align:top;
+          position:absolute;
+          left:15%;
+          top:79%
+        }
+        .tweet{
+          font-family:arial;
+          font-weight: bold;
+          padding-top:8px;
+          padding-bottom:8px;
+          padding-left:20px;
+          padding-right:20px;
+          border:none;
+          border-radius:20px;
+          color:white;
+          background-color: rgb(87, 179, 255);
+          vertical-align: middle;
+          margin-left:250px;
+        }
+        .name{
+          display:block;
+          margin-bottom:3px;
+        }
+        .mails{
+          display:block;
+        }
+        .spazio{
+          margin-bottom:200px;
+        }
+        .testo{
+          width:200px;
+          display:inline-block;
+          vertical-align: middle;
+
+        }
+        .yes{
+          display:inline-block;
+          vertical-align: middle;
+        }
+        .no{
+          display:inline-block;
+          vertical-align: middle;
+
+        }
+        .google-logo{
+          width:150px;
+          height: 60px;
+          margin:auto;
+          display:block;
+          object-fit:cover;
+        }
+        .google-search-bar{
+          margin-top:3px;
+          margin-left:150px;
+          display:block;
+          width:300px;
+          padding-top:6px;
+          padding-bottom:6px;
+          border:none;
+          border-radius:20px;
+          padding-left:10px;
+          box-shadow:0px 2px 5px rgb(101, 101, 101);
+
+        }
+        .first-name,.second-name{
+          margin-top:50px;
+          width:90px;
+          display:inline-block;
+          border-radius:4px;
+          border-width:1px;
+          border-color:gray;
+          border-style:solid;
+          padding-top:3px;
+          padding-bottom:3px;
+
+        }
+        .emailo{
+          display:block;
+          margin-top:5px;
+          width:190px;
+          border-radius:4px;
+          border-width:1px;
+          border-color:gray;
+          border-style:solid;
+          padding-top:3px;
+          padding-bottom:3px;
+
+
+
+        }
+        .sign-up{
+          margin-top:5px;
+          padding-left:75px;
+          padding-right:75px;
+          border:none;
+          padding-top:8px;
+          padding-bottom:8px;
+          border-radius:4px;
+          display:block;
+          color:white;
+          background-color: #0d77e1;
+        }
+        .uber-text{
+          font-family:arial;
+          font-size:30px;
+          margin-bottom:15px;
+        }
+        .pickup,.destination{
+          background-color: rgb(241, 240, 238);
+          border:none;
+          padding-top:10px;
+          padding-bottom:10px;
+          font-size:12px;
+          width:250px;
+          display:block;
+          padding-left:10px;
+        }
+        .destination{
+          margin-top:4px;
+        }
+        .request{
+          color:white;
+          background-color: black;
+          border:none;
+          margin-top:20px;
+          font-size: 11px;
+          padding-top:10px;
+          padding-bottom:10px;
+          padding-left:10px;
+          padding-right:10px;
+          font-family: arial;
+          cursor:pointer;
+          margin-bottom:100px;
+        }
+        .schedule{
+          background-color: rgb(241, 240, 238);
+          border:none;
+          padding-top:10px;
+          padding-bottom:10px;
+          margin-left:20px;
+          font-size:11px;
+          font-family: arial;
+          cursor:pointer;
+        }
+        .layout1{
+          width:300px;
+          margin-bottom:100px;
+          }
+          .layout{
+          width:300px;
+          margin-bottom:20px;
+          }
+        .player-tw{
+          margin-top:0;
+          vertical-align: middle;
+          width:60px;
+          height:60px;
+          margin-right:0;
+          object-fit: cover;
+          border-radius: 60px;
+          display:inline-block;
+          vertical-align: middle;
+        }
+        .player-tw-2{
+          margin-top:0;
+          vertical-align: middle;
+          width:60px;
+          height:60px;
+          margin-right:0;
+          object-fit: cover;
+          object-position: top;
+          border-radius: 60px;
+          display:inline-block;
+          vertical-align: middle;
+        }
+        .presentation{
+          width:100px;
+          display:inline-block;
+          vertical-align: middle;
+          margin-left:10px;
+        }
+        .name-presentation,.team-presentation,.status-presentation{
+          font-family: arial;
+          font-size:12px;
+          margin-top:0;
+          margin-bottom:2px;
+        }
+        .name-presentation{
+          font-weight: bold;
+        }
+        .team-presentation{
+          color:gray;
+        }
+        .status-presentation{
+          color:gray;
+        }
+        .follow-presentation{
+          vertical-align: middle;
+          display:inline-block;
+          margin-left:40px;
+          padding-top:8px;
+          padding-bottom:8px;
+          background-color: #459aee;
+          border:none;
+          color:white;
+          font-weight: bold;
+          border-radius: 3px;
+          cursor:pointer;
+
+        }
+        .external-layout{
+          display:inline-block;
+          width:400px;
+        }
+
+
+
+
+        .yt-mock{
+          display:inline-block;
+          border-color:black;
+          border-style:solid;
+          width:500px;
+        }
+        .video{
+          margin-bottom:10px;
+        }
+        .yt-mock-texts{
+          margin-left:10px;
+          font-family: roboto;
+          display:inline-block;
+          text-align:top ;
+          width:200px;
+        }
+        .mock-thumb{
+          width:200px;
+          vertical-align: top;
+        }
+        .mock-title{
+          font-size: 14px;
+          margin-top:0;
+          font-weight: 500;
+        }
+        .mock-author{
+          color:gray;
+          font-size: 11px;
+          margin-top:20px;
+          margin-bottom:0;
+        }
+        .mock-views{
+          margin-top:4px;
+          color:gray;
+          font-size: 11px;
+        }
+      </style>
+    </head>
+        <body>
+          <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+          <input class="search-bar" type="text" placeholder="Search">
+          <p>ESERCIZI</p>
+          <img class="messi1" src="Lionel-Messi.webp">
+          <img class="messi2" src="Lionel-Messi.webp">
+          <img class="messi3" src="Lionel-Messi.webp">
+          <input class="search2" type="text" placeholder="Search">
+          <input class="google-search" type="text" 
+          placeholder="Search Google or type a URL">
+          <p class="mail">Email</p>
+          <input class="email" type="text">
+          <p class="agree">By clicking Agree & Join, you 
+            agree to the Privacy Policy</p>
+          <button class="join">Agree & Join</button>
+            <p></p>
+          <img class="messi-tw" src="Lionel-Messi.webp"> 
+          <p class="what">What's happening?</p>
+          <button class="tweet">Tweet</button>
+
+          <p>ESERCIZI</p>
+          <input class="name" type="text" placeholder="Name">
+          <input class="mails" type="text" placeholder="Email">
+          <p class="testo">Thanks for chatting with our customer 
+            support. Would you like to take our quick survey?</p>
+          <button class="yes">Yes</button>
+          <button class="no">No</button>
+          <img class="google-logo" src="google-logo.png">
+          <input class="google-search-bar" 
+          placeholder="Search Google or type a URL">
+          <input class="first-name" placeholder="First name">
+          <input class="second-name" placeholder="Second name">
+          <input class="emailo" placeholder="Email">
+          <button class="sign-up">Sign Up</button>
+          <p class="uber-text">Request a ride now</p>
+          <input class="pickup" placeholder="Enter pickup location">
+          <input class="destination" placeholder="Enter destination">
+          <button class="request">Request now</button>
+          <button class="schedule">Schedule for later</button>
+
+
+
+          <div class="layout1">
+          <img class="player-tw" src="Lionel-Messi.webp"> 
+          <div class="presentation">
+            <p class="name-presentation">Lionel</p>
+            <p class="team-presentation">Inter Miami</p>
+            <p class="status-presentation">El mas grande</p>
+          </div>
+          <button class="follow-presentation">Follow</button>
+          </div>
+
+
+          <div class="external-layout">
+          <div class="layout">
+          <img class="player-tw" src="Lionel-Messi.webp"> 
+          <div class="presentation">
+            <p class="name-presentation">Lionel</p>
+            <p class="team-presentation">Inter Miami</p>
+            <p class="status-presentation">GOAT</p>
+          </div>
+          <button class="follow-presentation">Follow</button>
+          </div>
+          <div class="layout">
+          <img class="player-tw-2" src="bellingham.jpg".webp> 
+          <div class="presentation">
+            <p class="name-presentation">Jude</p>
+            <p class="team-presentation">Real Madrid</p>
+            <p class="status-presentation">Bellingoool</p>
+          </div>
+          <button class="follow-presentation">Follow</button>
+          </div>
+          <div class="layout">
+          <img class="player-tw-2" src="mbappe.jpg"> 
+          <div class="presentation">
+            <p class="name-presentation">Kylian</p>
+            <p class="team-presentation">Real Madrid</p>
+            <p class="status-presentation">Dictador</p>
+          </div>
+          <button class="follow-presentation">Follow</button>
+          </div>
+          </div>
+
+
+          <div class="yt mock">
+            <div class="video">
+              <img class="mock-thumb" src="thumbnail/thumbnail-1.webp">
+              <div class="yt-mock-texts">
+                <p class="mock-title">How to compete against CS degrees
+                  (as a self-taught dev)</p>
+                <p class="mock-author">SuperSimpleDev</p>
+                <p class="mock-views">1.5k views &#183; 4 months ago</p>
+              </div>
+            </div>
+          <div class="video">
+              <img class="mock-thumb" src="thumbnail/thumbnail-2.webp">
+              <div class="yt-mock-texts">
+                <p class="mock-title">Which programming language to learn 
+                  first in 2022 (with charts)</p>
+                <p class="mock-author">SuperSimpleDev</p>
+                <p class="mock-views">5.7k views &#183; 11 months ago</p>
+              </div>
+            </div>
+          <div class="video">
+              <img class="mock-thumb" src="thumbnail/thumbnail-3.webp">
+              <div class="yt-mock-texts">
+                <p class="mock-title">Frontend web development - a complete
+                  overview (2021)</p>
+                <p class="mock-author">SuperSimpleDev</p>
+                <p class="mock-views">1k views &#183; 4 months ago</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <p class="spazio"></p>
+        </body>
+</html>

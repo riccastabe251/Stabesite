@@ -1,0 +1,24 @@
+ELEMENTI HTML 
+
+<TAG>TEXT</TAG>
+
+Pulsante: <button>text</button>
+testo paragrafo: <p>text</p>
+Anchor (link a sito): <a href="link">text</a>
+
+stile css: <style>Selector</style>
+
+
+ATTRIBUTI HTML: modificano il comportamento di un elemento HTML
+<tag attribute="" attribute=""
+href: 
+target: determina se il link si apre nella stessa pagina o in una nuova. Default è in una nuova
+se "_blank" apre in una nuova pagina
+
+Gli spazi extra sono ignorati
+
+
+SELETTORE CSS: seleziono il target del codice css
+button {
+    proprietà: valore;
+}

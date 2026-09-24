@@ -1,0 +1,206 @@
+p{
+    font-family:Roboto;
+    margin-top:0;
+    margin-bottom:0;
+
+  }
+
+.video-title{
+  font-size:18px;
+  font-weight:bold;
+  width:300px;
+  line-height:24px;
+}
+.video-stats{
+  font-size:14px;
+  color:rgb(98,98,98);
+  margin-top:6px;
+}
+.video-author{
+  font-size:14px;
+  color:rgb(98,98,98);
+  margin-top:16px;
+
+}
+.video-description{
+  font-size:14px;
+  margin-top:16px;
+  width:280px;
+  line-height:20px;
+  color:rgb(98,98,98);
+  margin-bottom:50px;
+}
+.apple-text{
+  font-size:14px;
+  text-align:center;
+  background-color: rgb(227,65,64);
+  color:white;
+  padding-top:15px;
+  padding-bottom:15px;
+
+}
+.link{
+    margin-left:12px;
+}
+.link:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.es{
+  margin-top:20px;
+}
+.tahoma{
+  font-family:Tahoma;
+  font-weight: bold;
+  margin-top:10px;
+}
+.arial{
+  margin-top:10px;
+  font-weight: bold;
+  width:230px;
+}
+.sales{
+  color:red;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.course{
+  font-family:verdana;
+  font-weight: bold;
+  margin-top:30px;
+
+}
+.beginner{
+  font-family:verdana;
+  color:rgb(98,98,98);
+  margin-top:3px;
+  font-size:14px;
+}
+.desc{
+  width:270px;
+  margin-top:18px;
+}
+.get-started{
+  background-color: green;
+  margin-top: 20px;
+  color:white;
+  border-color:rgb(10, 101, 10);
+  border-style:solid;
+  border-radius:3px;
+  border-width:1px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:pointer;
+  transition: opacity 0.5s;
+}
+.get-started:hover{
+  opacity:0.8;
+}
+.get-started:active{
+  opacity: 0.6;
+  transition: none;
+}
+.shopping{
+  margin-top:20px;
+  font-weight: bold;
+  font-size:20px;
+  text-align:center;
+}
+.help{
+  text-align:center;
+  margin-top:20px;
+  font-size:15px;
+}
+.learn{
+  color:rgb(64, 64, 248);
+  text-align:center;
+  margin-top:10px;
+  font-size:14px;
+}
+.space{
+  margin-top:100px;
+}
+.new{
+  color:rgb(219, 143, 2);
+  font-weight: bold;
+  font-size:12px;
+  text-align:center;
+}
+.macbook{
+  font-size:18px;
+  margin-top:8px;
+  text-align:center;
+  font-weight: bold;
+}
+.super{
+  margin-top:4px;
+  font-weight: bold;
+  text-align: center;
+  font-size:24px;
+}
+.price{
+  text-align:center;
+  margin-top:8px;
+  margin-bottom:10px;
+}
+.buy{
+  background-color: rgb(0, 119, 255);
+  color:white;
+  cursor:pointer;
+  margin:auto;
+  display:block;
+  border:none;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius: 20px;
+}
+.finance1{
+  margin-top:20px;
+}
+.valore{
+  font-size:30px;
+}
+.USD{
+  color:gray;
+  margin-left:8px;
+}
+.finance2{
+  margin-top:6px;
+  color:green;
+  font-size:16px;
+}
+.finance3{
+  margin-top:6px;
+}
+.after{
+  color:gray;
+}
+.minus{
+  color:rgb(198, 2, 2);
+}
+.line1{
+  margin-top:30px;
+}
+.bold{
+  font-weight: bold;
+}
+.gray{
+  color:rgb(98,98,98);
+  margin-left:5px;
+}
+.line2{
+  margin-top:5px;
+  width:500px;
+}
+.line3{
+  margin-top:20px;
+}
+.tag{
+  color:rgb(0, 119, 255);
+}

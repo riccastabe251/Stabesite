@@ -1,0 +1,15 @@
+.model{
+    font-family:montserrat;
+    font-size:36px;
+    font-weight: bold;
+    text-align:center;
+    margin-bottom:10px;
+}
+.order{
+    text-align: center;
+    margin-top:0;
+    font-size: 20px;
+}
+.underline{
+    text-decoration: underline;
+}
